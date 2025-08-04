@@ -1,22 +1,11 @@
-const books = [
-  {
-    title: "The Last Kingdom",
-    author: "Bernard Cornwell",
-    rating: 8.38,
-  },
-  {
-    title: "Beside Still Waters",
-    author: "Robert Sheckley",
-    rating: 8.51,
-  },
-  {
-    title: "The Dream of a Ridiculous Man",
-    author: "Fyodor Dostoevsky",
-    rating: 7.75,
-  },
-  { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
-  { title: "Enemy of God", author: "Bernard Cornwell", rating: 8.67 },
+const students = [
+  { name: "Mango", courses: ["mathematics", "physics"] },
+  { name: "Poly", courses: ["science", "mathematics"] },
+  { name: "Kiwi", courses: ["physics", "biology"] },
 ];
+const trtstudents = students.map(stud => stud.courses);
+console.log(trtstudents);
 
-const titles = books.map(titl => [titl.title,titl.rating]);
-console.log(titles);
+const fbfbcourses = students.flatMap(st => st.courses);
+console.log(fbfbcourses);
+
