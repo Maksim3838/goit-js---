@@ -2,3 +2,104 @@ h1 {
   color: blue;
   
 }
+
+.tu {
+   background-image: url('./img/1.jpg'); 
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  width: 100vw;                 
+  height: 100vh; 
+}
+
+.hero-header {
+  background-image: url('./img/ццц.jpg'); /* шлях до твоєї картинки */
+  background-size: cover;        /* розтягує фон на весь екран */
+  background-position: center;   /* центрує */
+  background-repeat: no-repeat;  /* не повторює */
+  
+  height: 100vh;   /* займає всю висоту екрана */
+  width: 100vw;    /* займає всю ширину */
+  color: white;    /* текст стане білим для контрасту */
+  
+  display: flex;              /* центрування вмісту */
+  flex-direction: column;     /* елементи зверху вниз */
+  justify-content: center;    /* по вертикалі */
+  align-items: center;        /* по горизонталі */
+  text-align: center;
+}
+.hero-head {
+   background-image: url('./img/1.jpg'); /* шлях до твоєї картинки */
+  background-size: cover;        /* розтягує фон на весь екран */
+  background-position: center;   /* центрує */
+  background-repeat: no-repeat;  /* не повторює */
+  
+  height: 100vh;   /* займає всю висоту екрана */
+  width: 100vw;    /* займає всю ширину */
+  color: white;    /* текст стане білим для контрасту */
+  
+  display: flex;              /* центрування вмісту */
+  flex-direction: column;     /* елементи зверху вниз */
+  justify-content: center;    /* по вертикалі */
+  align-items: center;        /* по горизонталі */
+  text-align: center;
+}
+.hero-header a {
+  color: #fff;         /* колір посилань */
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-header a:hover {
+  text-decoration: underline;
+}
+
+.hero-header h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;}
+
+ .back-btn {
+    position: fixed;         /* фіксує кнопку відносно екрана */
+  bottom: 20px;            /* відступ знизу */
+  right: 20px;  
+  background-color: #a58e2f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0a3cf2;
+}
+.ret{
+  display: flex;              /* центрування вмісту */
+  flex-direction: column;     /* елементи зверху вниз */
+  justify-content: center;    /* по вертикалі */
+  align-items: center;        /* по горизонталі */
+  text-align: center;
+   max-width: 1800px;
+    margin: 0 auto;
+    font-size: 50px;
+    color: rgb(122, 55, 55);
+}
+
+.back-rrr{
+  position: fixed;         /* фіксує кнопку відносно екрана */
+  bottom: 20px;            /* відступ знизу */
+  right: 20px;  
+  background-color: #a58e2f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+}
