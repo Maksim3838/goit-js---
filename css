@@ -58,7 +58,8 @@ h1 {
 .hero-header h1 {
   font-size: 60px;
   color: white;
-  text-align: center;}
+  text-align: center;
+  }
 
  .back-btn {
     position: fixed;         /* фіксує кнопку відносно екрана */
